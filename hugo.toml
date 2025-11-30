@@ -1,0 +1,35 @@
+baseURL = "https://alphacyg.com/"
+languageCode = "en-us"
+title = "Alpha Cyg"
+theme = "PaperMod"
+
+pageSize = 10
+
+[params]
+  defaultTheme = "auto"        # 自动暗/亮主题
+  ShowPostNavLinks = true
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+
+  [params.homeInfoParams]
+    Title = "Alpha Cyg"
+    Content = "写一点东西，放一些照片。"
+
+[menu]
+
+  [[menu.main]]
+    name   = "Posts"
+    url    = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name   = "Photos"
+    url    = "/photos/"
+    weight = 2
+
+  [[menu.main]]
+    name   = "About"
+    url    = "/about/"
+    weight = 3
