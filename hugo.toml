@@ -14,15 +14,15 @@ pageSize = 10
   ShowShareButtons = false
 
   [params.homeInfoParams]
-    Title = "Alpha Cyg"
-    Content = "I've seen things you people wouldn't believe.
+    Title = "Sailing toward Deneb"
+    Content = """I've seen things you people wouldn't believe.
      Attack ships on fire off the shoulder of Orion. 
      I watched C-beams glitter in the dark near the Tannhäuser Gate. 
      All those moments will be lost in time, like tears in rain.
      
      我曾见过那些你们人类不会置信的事。我曾目睹战舰在猎户座的边缘燃起烈火，
      我看过 C 射线在唐怀瑟之门边际的黑暗中明灭闪耀。
-     所有这些瞬间，都会消逝在时间之中，一如眼泪消失在雨中。 "
+     所有这些瞬间，都会消逝在时间之中，一如眼泪消失在雨中。 """
 
 [menu]
 
