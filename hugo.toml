@@ -27,16 +27,26 @@ pageSize = 10
 [menu]
 
   [[menu.main]]
-    name   = "Posts"
-    url    = "/posts/"
+    name   = "杂谈"
+    url    = "/musings/"
     weight = 1
+
+  [[menu.main]]
+    name   = "科研"
+    url    = "/research/"
+    weight = 2
+
+  [[menu.main]]
+    name   = "金融"
+    url    = "/finance/"
+    weight = 3
 
   [[menu.main]]
     name   = "Photos"
     url    = "/photos/"
-    weight = 2
+    weight = 4
 
   [[menu.main]]
     name   = "About"
     url    = "/about/"
-    weight = 3
+    weight = 5
