@@ -2,36 +2,33 @@
 title: "2025 Q4 Portfolio Holdings"
 date: 2025-12-21T12:00:00-05:00
 draft: false
-description: "A snapshot of my quantitative and long-term investment allocation for the end of 2025."
+description: "Detailed breakdown of portfolio holdings by percentage."
 ---
 
-### Portfolio Allocation (Relative %)
+### Portfolio Breakdown (by % of Total Value)
 
-Following the principle of "Logic > Absolute Values," here is a breakdown of the current portfolio allocation by strategy and asset class as of late December 2025.
+As of December 21, 2025.
 
-#### Core Holdings by Asset Class
-
-| Category | Allocation (%) | Primary Instruments |
+| Ticker | Description | % of Portfolio |
 | :--- | :--- | :--- |
-| **US Equities (Growth & Core)** | ~64.2% | NVDA, BRK.B, VOO, QQQ, MSFT, ASML, GOOGL, COST, AAPL |
-| **Fixed Income & Cash** | ~18.4% | SGOV, BIL, Cash (Chase Sweep) |
-| **Alternative Assets / Income** | ~15.2% | GLD, JEPQ, QQQI |
-| **Mid/Small Cap & Specialized** | ~2.2% | IWM, CLS, OXY, KO |
+| **BRKB** | BERKSHIRE HATHAWAY INC DEL CL B | 27.99% |
+| **NVDA** | NVIDIA CORP | 26.45% |
+| **SGOV** | ISHARES 0-3 MONTH TREASURY BOND ETF | 12.32% |
+| **BIL** | SPDR BLOOMBERG 1-3 MONTH T-BILL ETF | 5.96% |
+| **VOO** | VANGUARD S&P 500 ETF | 4.68% |
+| **QQQ** | INVESCO QQQ TRUST SERIES 1 | 4.22% |
+| **COST** | COSTCO WHOLESALE CORP-NEW | 3.46% |
+| **MSFT** | MICROSOFT CORP | 2.57% |
+| **ASML** | ASML HOLDING N V | 1.97% |
+| **QQQI** | NEOS NASDAQ 100 HIGH INCOME ETF | 1.92% |
+| **GOOGL** | ALPHABET INC CLASS A | 1.91% |
+| **GLD** | SPDR GOLD TRUST | 1.74% |
+| **JEPQ** | JPMORGAN NASDAQ EQUITY PREMIUM INCOME | 1.06% |
+| **CLS** | CELESTICA INC | 0.91% |
+| **IWM** | ISHARES RUSSELL 2000 ETF | 0.78% |
+| **CASH** | CHASE DEPOSIT SWEEP | 0.62% |
+| **AAPL** | APPLE INC | 0.51% |
+| **OXY** | OCCIDENTAL PETROLEUM CORP | 0.49% |
+| **KO** | COCA-COLA CO | 0.44% |
 
-#### Top 5 Individual Conviction Plays
-*   **Berkshire Hathaway (BRK.B)**: ~27.2% of equity sleeve (Core Value & Stability)
-*   **NVIDIA (NVDA)**: ~25.7% of equity sleeve (AI Infrastructure / Growth)
-*   **Vanguard S&P 500 (VOO)**: ~4.5% of equity sleeve (Passive Beta)
-*   **Invesco QQQ (QQQ)**: ~4.1% of equity sleeve (Tech Beta)
-*   **Microsoft (MSFT)**: ~2.5% of equity sleeve (Software/Cloud)
-
----
-
-### Strategy Insight
-
-The current allocation reflects a **Barbell Strategy**:
-1.  **Growth Engine**: Significant exposure to AI and semiconductor leaders (NVDA, ASML) and massive software ecosystems (MSFT, GOOGL).
-2.  **Defensive Anchor**: High-quality value (BRK.B, COST) and a substantial cash/short-term bond buffer (SGOV, BIL) to capitalize on market volatility and provide yield in a high-rate environment.
-3.  **Income Generation**: Utilization of derivative-based income ETFs (JEPQ, QQQI) to reduce portfolio volatility while capturing premium income.
-
-*Disclaimer: This is for informational purposes only and does not constitute investment advice. Performance and allocations change frequently based on quantitative model signals.*
+**Total: 100.00%**
