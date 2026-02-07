@@ -1,4 +1,4 @@
 ---
-title: "金融"
-description: "关于量化交易与金融市场的思考"
+title: "Finance"
+description: "Insights on Quantitative Trading and Markets"
 ---

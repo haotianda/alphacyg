@@ -27,17 +27,17 @@ pageSize = 10
 [menu]
 
   [[menu.main]]
-    name   = "杂谈"
+    name   = "Musings"
     url    = "/musings/"
     weight = 1
 
   [[menu.main]]
-    name   = "科研"
+    name   = "Research"
     url    = "/research/"
     weight = 2
 
   [[menu.main]]
-    name   = "金融"
+    name   = "Finance"
     url    = "/finance/"
     weight = 3
 
