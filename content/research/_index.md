@@ -13,6 +13,9 @@ Plasma, often referred to as the fourth state of matter, constitutes over 99% of
 
 ## Magnetic Reconnection
 
+![Parker-Sweet Magnetic Reconnection Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Magnetic_reconnection_separator_Parker-Sweet.svg/800px-Magnetic_reconnection_separator_Parker-Sweet.svg.png)
+*A cross-section through four magnetic domains undergoing separator Parker-Sweet reconnection.*
+
 Magnetic reconnection is a universal topological restructuring of magnetic fields that explosively converts stored magnetic energy into particle kinetic energy, thermal energy, and particle acceleration. This fundamental process is the primary driver behind solar flares, coronal mass ejections, and geomagnetic substorms in the Earth's magnetotail.
 
 My investigations center on the microscopic kinetic physics of the diffusion region—the highly localized domain where the ideal MHD frozen-in condition is violated. I focus on understanding the mechanisms that facilitate this breakdown, the resulting reconnection rates, and the subsequent energy partitioning between different plasma species.
