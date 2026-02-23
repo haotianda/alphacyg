@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="auto">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <defs>
+    <!-- Arrowhead for Magnetic Field Lines -->
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f77b4" />
+    </marker>
+    <!-- Arrowhead for Flow Velocity -->
+    <marker id="arrowV" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d62728" />
+    </marker>
+  </defs>
+
+  <!-- Diffusion Region (Center) -->
+  <ellipse cx="400" cy="250" rx="60" ry="30" fill="#e9ecef" stroke="#adb5bd" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="400" y="255" font-family="sans-serif" font-size="14" fill="#495057" text-anchor="middle">Diffusion Region</text>
+
+  <!-- Top Inflow Magnetic Field Lines -->
+  <path d="M 100 50 Q 400 200 700 50" fill="none" stroke="#1f77b4" stroke-width="3" marker-mid="url(#arrowB)"/>
+  <path d="M 200 100 Q 400 220 600 100" fill="none" stroke="#1f77b4" stroke-width="3" marker-mid="url(#arrowB)"/>
+  
+  <path d="M 100 50 Q 250 125 400 200" fill="none" stroke="transparent"/> <!-- Guiding path for top arrow -->
+  <polygon points="260,120 280,135 255,140" fill="#1f77b4" transform="rotate(-15, 270, 130)"/>
+  <polygon points="540,120 520,135 545,140" fill="#1f77b4" transform="rotate(15, 530, 130)"/>
+
+  <!-- Bottom Inflow Magnetic Field Lines -->
+  <path d="M 100 450 Q 400 300 700 450" fill="none" stroke="#1f77b4" stroke-width="3"/>
+  <path d="M 200 400 Q 400 330 600 400" fill="none" stroke="#1f77b4" stroke-width="3"/>
+  
+  <polygon points="260,380 280,365 255,360" fill="#1f77b4" transform="rotate(15, 270, 370)"/>
+  <polygon points="540,380 520,365 545,360" fill="#1f77b4" transform="rotate(-15, 530, 370)"/>
+
+
+  <!-- Plasma Inflow Velocity Vectors (V_in) -->
+  <line x1="400" y1="100" x2="400" y2="180" stroke="#d62728" stroke-width="4" marker-end="url(#arrowV)"/>
+  <text x="415" y="140" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d62728">V<tspan dy="5" font-size="12">in</tspan></text>
+
+  <line x1="400" y1="400" x2="400" y2="320" stroke="#d62728" stroke-width="4" marker-end="url(#arrowV)"/>
+  <text x="415" y="370" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d62728">V<tspan dy="5" font-size="12">in</tspan></text>
+
+  <!-- Plasma Outflow Velocity Vectors (V_out) -->
+  <line x1="300" y1="250" x2="150" y2="250" stroke="#d62728" stroke-width="4" marker-end="url(#arrowV)"/>
+  <text x="210" y="240" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d62728">V<tspan dy="5" font-size="12">out</tspan></text>
+
+  <line x1="500" y1="250" x2="650" y2="250" stroke="#d62728" stroke-width="4" marker-end="url(#arrowV)"/>
+  <text x="560" y="240" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d62728">V<tspan dy="5" font-size="12">out</tspan></text>
+
+  <!-- Labels -->
+  <text x="30" y="40" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1f77b4">B-Field (Antiparallel)</text>
+  <text x="390" y="256" font-family="sans-serif" font-size="24" font-weight="bold" fill="#212529">X</text>
+  <text x="395" y="275" font-family="sans-serif" font-size="12" fill="#495057">Null Point</text>
+</svg>
